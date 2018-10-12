@@ -1,0 +1,31 @@
+<sdf version='1.6'>
+  <world name='myworld'>
+
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+
+    <include>
+			<uri>model://sun</uri>
+    </include>
+
+    <include>
+			<uri>model://volleyfloor</uri>
+    </include>
+
+    <include>
+			<uri>model://volleynet</uri>
+    </include>
+
+    <include>
+			<uri>model://gradebanner</uri>
+    </include>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>5.43707 -6.57107 2.46712 -0.00186 0.279972 2.35805</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+  </world>
+</sdf>

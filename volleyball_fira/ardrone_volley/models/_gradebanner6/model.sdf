@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<sdf version ='1.4'>
+
+<model name='_gradebanner6'>
+      <static>1</static>
+      <link name='field'>
+        <visual name='visual'>
+         <geometry>
+            <box>
+                <size>0.0001 0.5  0.5</size>
+            </box>
+        </geometry>
+          <material>
+            <script>
+              <uri>/home/eve/catkin_ws/src/ardrone_volley/models/_gradebanner6/materials/scripts/</uri>
+              <uri>/home/eve/catkin_ws/src/ardrone_volley/models/_gradebanner6/materials/textures/</uri>
+              <name>DroneSim/_gradebanner6</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+</model>
+</sdf>

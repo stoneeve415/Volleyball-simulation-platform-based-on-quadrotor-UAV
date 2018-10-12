@@ -1,0 +1,3 @@
+<launch>
+	<node name="ball_pos" pkg="ardrone_volley" type="get_pos.py" required="true"/>
+</launch>
